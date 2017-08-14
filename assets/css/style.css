@@ -1,0 +1,43 @@
+.jumbotron {
+	background-color: gray;
+	color: white;
+	font-family: 'Denk One', sans-serif;
+}
+
+.panel {
+	background-color: lightgray;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 8px;
+	font-family: 'Denk One', sans-serif;
+}
+
+.instructions {
+	font-family: 'Arya', sans-serif;
+	font-size: 17px;
+}
+
+#targetNum {
+	font-size: 21px;
+	color: blue;
+}
+
+.winsCounter {
+	font-size: 21px;
+	color: purple;
+}
+
+.lossesCounter {
+	font-size: 21px;
+	color: purple;
+}
+
+#targetNum {
+	font-size: 21px;
+	color: blue;
+}
+
+#myScore {
+	font-size: 21px;
+	color: blue;
+}

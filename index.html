@@ -1,0 +1,79 @@
+<html>
+<head>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Arya|Denk+One" rel="stylesheet">
+	
+	<title>Crystals Collector!</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="jumbotron">
+			<div class="container text-center">
+				<h1>Crystals Collector!</h1>
+			</div>
+		</div>				
+			<div class="container">
+				<div class="row">
+					<div class="instructions col-md-10">
+						<p>You will be given a random number at the start of the game.<br>
+						There are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.<br>
+						You win the game by matching your total score to a random number.  You lose the game if your total score goes above the random number.<br>
+						The value of each crystal is hidden from you until you click on it.<br>
+						Each time when the game starts, the game will change the values of each crystal.</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="container">
+				<div row="col-md-4">
+					<div class="targetBox panel panel-default">
+            <h4>Target Number: <span id="targetNum"></span></h4>
+						
+					</div>
+					<div container>
+					<div class="winsLossesBox panel panel-default">
+						<h4>Wins: <div class="winsCounter">0</div></h4>
+						<br>
+						<h4>Losses: <div class="lossesCounter">0</div></h4>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="crystalBox">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="assets/images/red_gem.jpg" id="gem1" alt="red gem">
+						</div>
+						<div class="col-md-3">
+							<img src="assets/images/yellow_gem.jpg" id="gem2">
+						</div>
+						<div class="col-md-3">
+							<img src="assets/images/green_gem.jpg" id="gem3">
+						</div>
+						<div class="col-md-3">
+							<img src="assets/images/blue_gem.jpg" id="gem4">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div row="col-md-4">
+					<div class="scoreTextBox panel panel-default">
+						<h4>Your Total Score is: <span id="myScore">0</span></h4>
+				</div>
+			</div>
+				</div>
+			</div>
+	</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</body>
+</html>
